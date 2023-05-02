@@ -21,7 +21,7 @@ export default class Header extends Component {
                                 src={logo}
                                 height="50"
                                 width="50"
-                                className="d-inline-block align-top"
+                                className="d-inline-block align-top mt-1"
                                 alt="Logo"
                             />Демонтаж зданий
                         </NavbarBrand>

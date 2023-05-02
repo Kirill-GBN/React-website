@@ -10,8 +10,8 @@ export default class CarouselBox extends Component {
             <Carousel>
 
                 <Carousel.Item>
-                    <img 
-                        className='d-block w-100'
+                    <img
+                        className='d-block'
                         src={ demolition1 }
                         alt='DemolitionOne'
                     />
@@ -22,8 +22,8 @@ export default class CarouselBox extends Component {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img 
-                        className='d-block w-100'
+                    <img
+                        className='d-block'
                         src={ demolition2 }
                         alt='DemolitionTwo'
                     />
@@ -34,8 +34,8 @@ export default class CarouselBox extends Component {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img 
-                        className='d-block w-100'
+                    <img
+                        className='d-block'
                         src={ demolition3 }
                         alt='DemolitionThree'
                     />
