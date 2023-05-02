@@ -37,10 +37,10 @@ export default class Header extends Component {
                                 <FormControl
                                     type="text"
                                     placeholder="Поиск"
-                                    className="mr-sm-2"
+                                    className="sm-2"
                                 />
                             </Form>
-                            <Button variant="outline-info">Найти</Button>
+                            <Button className="m-2" variant="outline-info">Найти</Button>
                         </NavbarCollapse>
                     </Container>
                 </Navbar>
