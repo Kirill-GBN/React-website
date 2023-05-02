@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { Button, Container, Form, FormControl, Nav, NavLink, Navbar, NavbarBrand } from "react-bootstrap";
-import logo from './Dismantling.png'
+import logo from '../assets/Dismantling.png'
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import { Routes, BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
+import Response from "../Pages/Response";
 import Feedback from "../Pages/Feedback";
-import Contacts from "../Pages/Contacts";
 
 export default class Header extends Component {
     render() {
@@ -30,8 +30,8 @@ export default class Header extends Component {
                             <Nav className="me-auto">
                                 <NavLink href="/" > Главная страница </NavLink>
                                 <NavLink href="/about" > О нас </NavLink>
-                                <NavLink href="/feedback" > Отзывы </NavLink>
-                                <NavLink href="/contacts" > Контакты </NavLink>
+                                <NavLink href="/response" > Отзывы </NavLink>
+                                <NavLink href="/feedback" > Обратная связь </NavLink>
                             </Nav>
                             <Form className="inline">
                                 <FormControl
@@ -47,10 +47,10 @@ export default class Header extends Component {
 
                 <Router>
                     <Routes>
-                        <Route path="/" element={<Home/>} />
-                        <Route path="/about" element={<About/>} />
-                        <Route path="/feedback" element={<Feedback/>} />
-                        <Route path="/contacts" element={<Contacts/>} />
+                        <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/response" element={<Response />} />
+                        <Route path="/feedback" element={<Feedback />} />
                     </Routes>
                 </Router>
             </>
